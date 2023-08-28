@@ -75,3 +75,17 @@ input[type="submit"]:hover {
     justify-content: space-between;
     border: 1px solid black;
 }
+
+@media (max-width: 360px){
+    #multiplicator-operations, form{
+        margin: 0 auto;
+        background: white;
+        width: 250px;
+        border-radius: 15px;
+        padding: 10px 15px;
+    }
+    label{
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
